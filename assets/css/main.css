@@ -6,6 +6,9 @@
 
 :root {
     --primary-color: #10375c;
+    --text-color: #575f66;
+    --white-color: #fff;
+    --text-color-p: #c9d2da;
 }
 
 html {
@@ -14,12 +17,26 @@ html {
 
 body {
     font-family: "Sora", "sans-serif";
-    font-size: 1.6rem;
-    line-height: 1.75;
 }
 
 .container {
     width: 1170px;
     max-width: calc(100% - 48px);
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    min-width: 104px;
+    padding: 16px 20px;
+    border-radius: 24px;
+    background: #2e80ce;
+    display: block;
+    text-align: center;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 1.6em;
 }
