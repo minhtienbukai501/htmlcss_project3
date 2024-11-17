@@ -169,6 +169,10 @@
     object-fit: cover;
 }
 
+.header__img-item:first-child {
+    z-index: 1;
+}
+
 .header__img-item--small {
     position: absolute;
     left: calc(330px - 4px);
