@@ -34,7 +34,7 @@ a {
     padding: 16px 20px;
     border-radius: 24px;
     background: #2e80ce;
-    display: block;
+    display: inline-block;
     text-align: center;
     color: var(--white-color);
     font-weight: 400;
