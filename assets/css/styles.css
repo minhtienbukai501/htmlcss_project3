@@ -356,3 +356,172 @@
 .works__item:hover .works__link {
     color: #2e80ce;
 }
+
+.benefit {
+    padding: 170px 0;
+}
+
+.benefit__images {
+    width: 48%;
+    position: relative;
+    padding-bottom: 121px;
+    flex-shrink: 0;
+}
+
+.benefit__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.benefit__img {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.benefit__img--small {
+    width: 332px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-benefit {
+    margin-top: 53px;
+}
+
+/* dentist */
+
+.btn-dentist {
+    margin-top: 38px;
+}
+
+.align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-dentist:hover {
+    opacity: 0.9;
+}
+
+.dentist {
+    padding: 170px 0;
+    text-align: center;
+}
+
+.dentist__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.dentist__item:hover .dentist__img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.dentist__img-bk {
+    border-radius: 6px;
+    padding-top: 28px;
+    background-color: #eaf6ff;
+
+    overflow: hidden;
+}
+
+.dentist__img {
+    max-width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.dentist__name {
+    margin-top: 12px;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.dentist__title {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.85;
+}
+
+.dentist__control {
+    margin-top: 38px;
+}
+
+.entist__control-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+.entist__control-btn + .entist__control-btn {
+    margin-left: 18px;
+}
+
+.entist__control-btn:hover {
+    cursor: pointer;
+    background-color: #2e80ce;
+    color: #ffffff;
+}
+
+/* install */
+
+.install {
+    padding-top: 95px;
+}
+
+.install-content {
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.install__img {
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    display: block;
+}
+
+.install-heading {
+    color: var(--white-color);
+}
+.install-desc {
+    color: var(--white-color);
+}
+
+.install__info {
+    width: 50%;
+}
+
+.row-link {
+    margin-top: 38px;
+}
+
+.btn-install {
+    display: inline-block;
+    width: 135px;
+    height: 40px;
+}
+
+.btn-install--small {
+    margin-left: 28px;
+    width: 120px;
+}
