@@ -525,3 +525,271 @@
     margin-left: 28px;
     width: 120px;
 }
+
+/* news */
+.news {
+    padding: 170px 0;
+}
+
+.news-info {
+    width: 40%;
+}
+
+.news-link {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.6;
+    display: inline-block;
+    padding-top: 28px;
+    position: relative;
+}
+
+.news-link::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #10375c;
+    content: "";
+    display: block;
+    left: 0;
+    bottom: 4px;
+}
+
+.news__control {
+    margin-top: 28px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news__list {
+    max-width: 570px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.news__item {
+    flex: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+.news__item:hover {
+    border: 1px solid #e8ebee;
+}
+
+.news__item:hover .news__img {
+    transform: scale(1.1);
+}
+
+.news__img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    display: block;
+    height: 172px;
+}
+
+.news__item-thumb {
+    width: 100%;
+    height: 172px;
+}
+
+.news__item-info {
+    padding: 18px 22px 21px;
+}
+
+.news__heading-link {
+    color: #10375c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.62;
+}
+
+.news__desc {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.news__item-link {
+    color: #10375c;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.news__item-link:hover {
+    color: #2e80ce;
+}
+
+.news__item a {
+    display: block;
+}
+
+.wellcome {
+    padding-bottom: 170px;
+}
+
+.wellcome__info {
+    padding: 100px 0;
+    background-color: #f6fbff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wellcome__heading {
+    position: relative;
+    padding-bottom: 18px;
+}
+
+.wellcome__heading::before {
+    position: absolute;
+    content: "";
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.btn-wellcome {
+    margin-top: 38px;
+}
+
+/* footer */
+.footer {
+    background-color: #10375c;
+    padding-top: 100px;
+    padding-bottom: 42px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 28px;
+}
+
+.footer__desc {
+    margin-top: 21px;
+    color: #a9b3bb;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.support__heading {
+    color: #fff;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 28px;
+    line-height: 1.75;
+}
+
+.support__item {
+    padding: 5px 0;
+}
+
+.support__item-link {
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.footer__column {
+    max-width: 336px;
+}
+
+.footer__support + .footer__support {
+    margin-top: 25px;
+}
+
+.footer__social-link {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    background-color: var(--white-color);
+}
+
+.footer__social-link + .footer__social-link {
+    margin-left: 12px;
+}
+
+.footer__social-icon {
+    color: #2e80ce;
+    font-size: 1.6rem;
+}
+
+.footer__social-link--fb {
+    background-color: #2e80ce;
+}
+
+.footer__social-iconfb {
+    color: var(--white-color);
+}
+
+.support__input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.email-input {
+    border-radius: 4px;
+    color: #000;
+    flex-shrink: 0;
+    flex: 1;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #406181;
+    padding: 10px;
+}
+
+.btn-submit {
+    cursor: pointer;
+    margin-left: 12px;
+    min-width: 108px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.footer__row::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #406181;
+    top: 100%;
+}
+
+.footer__copy {
+    margin-top: 28px;
+    display: block;
+    text-align: center;
+    color: #aab3ba;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
